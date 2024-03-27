@@ -16,7 +16,7 @@ fun main() {
     FirebaseApp.initializeApp(options)
 
     val message = Message.builder()
-        .putData("action", "LIKES")
+        .putData("action", "LIKE")
         .putData("content", """{
           "userId": 1,
           "userName": "Vasiliy",
